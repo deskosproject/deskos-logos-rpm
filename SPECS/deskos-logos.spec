@@ -4,7 +4,7 @@
 Name: deskos-logos
 Summary: DeskOS-related icons and pictures
 Version: 70.0.6
-Release: 0.1%{?dist}
+Release: 0.2%{?dist}
 Group: System Environment/Base
 URL: https://www.deskosproject.org
 
@@ -249,5 +249,8 @@ glib-compile-schemas %{_datadir}/glib-2.0/schemas &> /dev/null || :
 # end i386 bits
 
 %changelog
+* Wed Sep 21 2016 Ricardo Arguello <rarguello@deskosproject.org> - 70.0.6-0.2
+- Created a new Anaconda 256x256 icon
+
 * Mon Aug 08 2016 Ricardo Arguello <rarguello@deskosproject.org> - 70.0.6-0.1
 - Initial DeskOS logo version
